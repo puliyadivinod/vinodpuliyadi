@@ -1,0 +1,16 @@
+<article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">$title$</h1>
+      <p class="post-meta">$date$ $if(author)$ • $author$ $else$ • $siteAuthor$ $endif$ $if(meta)$ • $meta$ $endif$</p>
+    </header>
+
+    <div class="post-content">
+      $partial("templates/post-content.html")$
+    </div>
+
+    $partial("_includes/comments.html")$
+  </div>
+
+</article>
