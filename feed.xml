@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>The Whimsy Coder</title>
+    <link href="http://www.vinodpuliyadi.pro/feed.xml" rel="self" />
+    <link href="http://www.vinodpuliyadi.pro" />
+    <id>http://www.vinodpuliyadi.pro/feed.xml</id>
+    <author>
+        <name>Vinodkumar Puliyadi</name>
+        <email>puliyadivinod@gmail.com</email>
+    </author>
+    <updated>2014-03-29T01:08:00Z</updated>
+    <entry>
+    <title>Internet Explorer Cookies</title>
+    <link href="http://www.vinodpuliyadi.pro/internet-explorer-cookies-for-shorter-domains/" />
+    <id>http://www.vinodpuliyadi.pro/internet-explorer-cookies-for-shorter-domains/</id>
+    <published>2014-03-29T01:08:00Z</published>
+    <updated>2014-03-29T01:08:00Z</updated>
+    <summary type="html"><![CDATA[<p><code>IE 6</code> and <code>IE 7</code> doesn’t allows you to create cookie for shorter domain names. Eg. (ab.sg, vp.uk) <!--more--></p>]]></summary>
+</entry>
+<entry>
+    <title>HTML5 Iframe height</title>
+    <link href="http://www.vinodpuliyadi.pro/iframe-html5-height/" />
+    <id>http://www.vinodpuliyadi.pro/iframe-html5-height/</id>
+    <published>2014-03-29T01:08:00Z</published>
+    <updated>2014-03-29T01:08:00Z</updated>
+    <summary type="html"><![CDATA[<p><code>HTML5</code> doctype doesn’t allows to set height of <code>&lt;iframe&gt;</code> in percentage. <!--more--></p>]]></summary>
+</entry>
+<entry>
+    <title>useful linux command snippets</title>
+    <link href="http://www.vinodpuliyadi.pro/useful-linux-command-snippets/" />
+    <id>http://www.vinodpuliyadi.pro/useful-linux-command-snippets/</id>
+    <published>2014-03-13T12:46:00Z</published>
+    <updated>2014-03-13T12:46:00Z</updated>
+    <summary type="html"><![CDATA[<p>I have to process daily with lot of numbers and files, below are few usefull commands which helps to make me more prodcutive. <!--more--></p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="co"># How to print sequence of number quickly from shell?</span>
+$ <span class="kw">seq</span> 0 10
+<span class="kw">0</span>
+<span class="kw">1</span>
+<span class="kw">2</span>
+<span class="kw">3</span>
+<span class="kw">4</span>
+<span class="kw">5</span>
+<span class="kw">6</span>
+<span class="kw">7</span>
+<span class="kw">8</span>
+<span class="kw">9</span>
+<span class="kw">10</span>
+
+$ <span class="co"># Can we print the number with `0` like 00, 01, 02...</span>
+$ <span class="kw">seq</span> -w 0 10
+<span class="kw">00</span>
+<span class="kw">01</span>
+<span class="kw">02</span>
+<span class="kw">03</span>
+<span class="kw">04</span>
+<span class="kw">05</span>
+<span class="kw">06</span>
+<span class="kw">07</span>
+<span class="kw">08</span>
+<span class="kw">09</span>
+<span class="kw">10</span>
+
+$ <span class="co"># How can we loop over lines available in file?</span>
+$ <span class="kw">for</span> <span class="kw">line</span> in <span class="kw">`cat</span> readfile.txt<span class="kw">`;</span> <span class="kw">do</span> <span class="kw">echo</span> <span class="ot">$line</span><span class="kw">;</span> <span class="kw">done</span>
+<span class="kw">Hello</span>
+<span class="kw">World</span>!
+<span class="kw">Shell</span>
+
+$ <span class="co"># How can quickly search in file?</span>
+$ <span class="kw">grep</span> <span class="st">&quot;World&quot;</span> readfile.txt
+<span class="kw">World</span>!
+
+$ <span class="co"># Can we get inverse results?</span>
+$ <span class="kw">grep</span> -v <span class="st">&quot;World&quot;</span> readfile.txt
+<span class="kw">Hello</span>
+<span class="kw">Shell</span>
+
+$ <span class="co"># Can we get count of results?</span>
+$ <span class="kw">grep</span> -cv <span class="st">&quot;World&quot;</span> readfile.txt
+<span class="kw">2</span>
+
+$ <span class="co"># How to protect long processing scripts in server from terminating, if your internet goes unavailable?</span>
+$ <span class="co"># Before executing any long processing script make sure to run on `screen`</span>
+$ <span class="kw">screen</span> -S <span class="st">&quot;mytempscreen&quot;</span>
+$ <span class="kw">python</span> runyourscript.py
+$ <span class="co"># taking long time, internet goes down... disconnected from server</span>
+$ <span class="co"># Login again and run below command to attach the last screen.</span>
+$ <span class="kw">screen</span> -x
+$ <span class="co"># Yippy!!!</span>
+$ <span class="co"># script was running even after internet disconnection.</span>
+$ <span class="kw">python</span> runyourscript.py</code></pre></div>]]></summary>
+</entry>
+<entry>
+    <title>Smart lamp using photocell sensor and arduino</title>
+    <link href="http://www.vinodpuliyadi.pro/smart-lamp-with-arduino/" />
+    <id>http://www.vinodpuliyadi.pro/smart-lamp-with-arduino/</id>
+    <published>2014-03-13T01:16:00Z</published>
+    <updated>2014-03-13T01:16:00Z</updated>
+    <summary type="html"><![CDATA[<p>Arduino experiment for building smart glowing lamp while dark.</p>
+<p><strong>Following components required to build the project.</strong> <br /></p>
+<ul>
+<li>Arduino <br /></li>
+<li>Photocell Resistor Sensor <br /></li>
+<li>Breadboard <br /></li>
+<li>Blue LED <br /></li>
+<li>Art work for lamp decoration.<br /> <!--more--></li>
+</ul>
+<object class="BLOG_video_class" contentid="652d8bd3ecce52f4" height="266" id="BLOG_video-652d8bd3ecce52f4" width="320">
+</object>]]></summary>
+</entry>
+<entry>
+    <title>Traversing across nested directories and files</title>
+    <link href="http://www.vinodpuliyadi.pro/traverse-across-nested-directories/" />
+    <id>http://www.vinodpuliyadi.pro/traverse-across-nested-directories/</id>
+    <published>2014-03-11T12:02:00Z</published>
+    <updated>2014-03-11T12:02:00Z</updated>
+    <summary type="html"><![CDATA[<p>Instead of writing our own recursive loops for traversing between directories and sub-directories python give us one interesting function in <code>OS</code> module which makes our work very easy and in optimized way. <code>OS</code> module has many other useful functions which helps us to right less code for simple tasks. <!--more--></p>
+<p>Below I have given a simple example for using <code>os.walk</code> function, here we are trying to find the <code>.mp3</code> files available in the specified directory.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">import</span> os
+<span class="kw">def</span> search_for_files(path_search, extention):
+    <span class="cf">for</span> dirname, dirnames, filenames <span class="op">in</span> os.walk(path_search):
+        <span class="cf">for</span> filename <span class="op">in</span> filenames:
+            <span class="cf">if</span> filename.endswith(extention):
+                <span class="bu">print</span> os.path.join(dirname, filename)
+<span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">&#39;__main__&#39;</span>:
+    search_for_files(<span class="st">&quot;/home/vinod/Music&quot;</span>, <span class="st">&quot;.mp3&quot;</span>)</code></pre></div>]]></summary>
+</entry>
+<entry>
+    <title>Hello World</title>
+    <link href="http://www.vinodpuliyadi.pro/hello-world/" />
+    <id>http://www.vinodpuliyadi.pro/hello-world/</id>
+    <published>2014-03-01T12:19:00Z</published>
+    <updated>2014-03-01T12:19:00Z</updated>
+    <summary type="html"><![CDATA[<p>With Hello World, starting my own blog post for sharing my experiments, experience and learning’s. <!--more--></p>]]></summary>
+</entry>
+
+</feed>
