@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>The Whimsy Coder</title>
-    <link href="http://www.vinodpuliyadi.pro/feed.xml" rel="self" />
-    <link href="http://www.vinodpuliyadi.pro" />
-    <id>http://www.vinodpuliyadi.pro/feed.xml</id>
+    <link href="https://vinodpuliyadi.pro/feed.xml" rel="self" />
+    <link href="https://vinodpuliyadi.pro" />
+    <id>https://vinodpuliyadi.pro/feed.xml</id>
     <author>
         <name>Vinodkumar Puliyadi</name>
         <email>puliyadivinod@gmail.com</email>
@@ -11,24 +11,24 @@
     <updated>2014-03-29T01:08:00Z</updated>
     <entry>
     <title>Internet Explorer Cookies</title>
-    <link href="http://www.vinodpuliyadi.pro/internet-explorer-cookies-for-shorter-domains/" />
-    <id>http://www.vinodpuliyadi.pro/internet-explorer-cookies-for-shorter-domains/</id>
+    <link href="https://vinodpuliyadi.pro/internet-explorer-cookies-for-shorter-domains/" />
+    <id>https://vinodpuliyadi.pro/internet-explorer-cookies-for-shorter-domains/</id>
     <published>2014-03-29T01:08:00Z</published>
     <updated>2014-03-29T01:08:00Z</updated>
     <summary type="html"><![CDATA[<p><code>IE 6</code> and <code>IE 7</code> doesn’t allows you to create cookie for shorter domain names. Eg. (ab.sg, vp.uk) <!--more--></p>]]></summary>
 </entry>
 <entry>
     <title>HTML5 Iframe height</title>
-    <link href="http://www.vinodpuliyadi.pro/iframe-html5-height/" />
-    <id>http://www.vinodpuliyadi.pro/iframe-html5-height/</id>
+    <link href="https://vinodpuliyadi.pro/iframe-html5-height/" />
+    <id>https://vinodpuliyadi.pro/iframe-html5-height/</id>
     <published>2014-03-29T01:08:00Z</published>
     <updated>2014-03-29T01:08:00Z</updated>
     <summary type="html"><![CDATA[<p><code>HTML5</code> doctype doesn’t allows to set height of <code>&lt;iframe&gt;</code> in percentage. <!--more--></p>]]></summary>
 </entry>
 <entry>
     <title>useful linux command snippets</title>
-    <link href="http://www.vinodpuliyadi.pro/useful-linux-command-snippets/" />
-    <id>http://www.vinodpuliyadi.pro/useful-linux-command-snippets/</id>
+    <link href="https://vinodpuliyadi.pro/useful-linux-command-snippets/" />
+    <id>https://vinodpuliyadi.pro/useful-linux-command-snippets/</id>
     <published>2014-03-13T12:46:00Z</published>
     <updated>2014-03-13T12:46:00Z</updated>
     <summary type="html"><![CDATA[<p>I have to process daily with lot of numbers and files, below are few usefull commands which helps to make me more prodcutive. <!--more--></p>
@@ -92,8 +92,8 @@ $ <span class="kw">python</span> runyourscript.py</code></pre></div>]]></summary
 </entry>
 <entry>
     <title>Smart lamp using photocell sensor and arduino</title>
-    <link href="http://www.vinodpuliyadi.pro/smart-lamp-with-arduino/" />
-    <id>http://www.vinodpuliyadi.pro/smart-lamp-with-arduino/</id>
+    <link href="https://vinodpuliyadi.pro/smart-lamp-with-arduino/" />
+    <id>https://vinodpuliyadi.pro/smart-lamp-with-arduino/</id>
     <published>2014-03-13T01:16:00Z</published>
     <updated>2014-03-13T01:16:00Z</updated>
     <summary type="html"><![CDATA[<p>Arduino experiment for building smart glowing lamp while dark.</p>
@@ -110,8 +110,8 @@ $ <span class="kw">python</span> runyourscript.py</code></pre></div>]]></summary
 </entry>
 <entry>
     <title>Traversing across nested directories and files</title>
-    <link href="http://www.vinodpuliyadi.pro/traverse-across-nested-directories/" />
-    <id>http://www.vinodpuliyadi.pro/traverse-across-nested-directories/</id>
+    <link href="https://vinodpuliyadi.pro/traverse-across-nested-directories/" />
+    <id>https://vinodpuliyadi.pro/traverse-across-nested-directories/</id>
     <published>2014-03-11T12:02:00Z</published>
     <updated>2014-03-11T12:02:00Z</updated>
     <summary type="html"><![CDATA[<p>Instead of writing our own recursive loops for traversing between directories and sub-directories python give us one interesting function in <code>OS</code> module which makes our work very easy and in optimized way. <code>OS</code> module has many other useful functions which helps us to right less code for simple tasks. <!--more--></p>
@@ -127,8 +127,8 @@ $ <span class="kw">python</span> runyourscript.py</code></pre></div>]]></summary
 </entry>
 <entry>
     <title>Hello World</title>
-    <link href="http://www.vinodpuliyadi.pro/hello-world/" />
-    <id>http://www.vinodpuliyadi.pro/hello-world/</id>
+    <link href="https://vinodpuliyadi.pro/hello-world/" />
+    <id>https://vinodpuliyadi.pro/hello-world/</id>
     <published>2014-03-01T12:19:00Z</published>
     <updated>2014-03-01T12:19:00Z</updated>
     <summary type="html"><![CDATA[<p>With Hello World, starting my own blog post for sharing my experiments, experience and learning’s. <!--more--></p>]]></summary>
