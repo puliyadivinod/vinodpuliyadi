@@ -16,7 +16,7 @@ import qualified Text.Blaze.Html5.Attributes     as A
 
 --------------------------------------------------------------------------------
 host :: String
-host = "http://www.vinodpuliyadi.pro"
+host = "https://vinodpuliyadi.pro"
 
 siteName :: String
 siteName = "The Whimsy Coder"
